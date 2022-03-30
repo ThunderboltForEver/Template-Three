@@ -50,10 +50,11 @@ ul {
     position: absolute;
     top: 60px;
     left: 50%;
+    min-width: fit-content;
     font-size: 22px;
     text-transform: uppercase;
     border: 2px solid black;
-    padding: 10px;
+    padding: 14px;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -816,12 +817,10 @@ i.Angle-down {
 }
 .team-members .container {
   gap: 40px 80px;
-  
 }
 .team-members .container .member-box {
   position: relative;
   padding: 0 30px;
-  
 }
 .team-members .container .member-box::before ,
 .team-members .container .member-box::after {
