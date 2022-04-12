@@ -989,18 +989,11 @@ width: 100%;
   background-color: #2196f3;
   height: 100%;
   position: absolute;
-}
-.skills .container .my-skills .progress:first-of-type span {
-  width: 85%;
-}
-.skills .container .my-skills .progress:nth-of-type(2) span {
-  width: 80%;
-}
-.skills .container .my-skills .progress:nth-of-type(3) span {
-  width: 70%;
-}
-.skills .container .my-skills .progress:nth-of-type(4) span {
-  width: 65%;
+  transition: 0.8s ;
+  -webkit-transition: 0.8s ;
+  -moz-transition: 0.8s ;
+  -ms-transition: 0.8s ;
+  -o-transition: 0.8s ;
 }
 .how-it-works {
   background-color: #ececec;
